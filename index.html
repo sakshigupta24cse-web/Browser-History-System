@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Browser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Mini Browser</h1>
+
+<input type="text" id="url" placeholder="Enter page (page1/page2)">
+<br><br>
+
+<button onclick="visit()">Visit</button>
+<button onclick="goBack()">Back</button>
+<button onclick="goForward()">Forward</button>
+
+<h2 id="current">Current Page: Home</h2>
+
+<iframe id="frame" width="90%" height="400px"></iframe>
+
+<script src="script.js"></script>
+
+</body>
+</html>
